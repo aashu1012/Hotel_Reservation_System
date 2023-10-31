@@ -14,6 +14,9 @@ bool compareByPrice(const Room& room1, const Room& room2) {
     return room1.price > room2.price;
 }
 
+// is code mein hum log sort karne ke liye compare by price function use kiye hai  price ko ye decending order me sort krta hai
+ 
+
 void displayRoomInformation() {
     std::vector<Room> rooms = {
         {"PENTHOUSE",
